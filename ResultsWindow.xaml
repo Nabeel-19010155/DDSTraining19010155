@@ -1,0 +1,33 @@
+﻿<Window x:Class="DDSTraining.ResultsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DDSTraining"
+        mc:Ignorable="d"
+        Title="ResultsWindow" Height="450" Width="400" WindowStartupLocation="CenterScreen">
+    <Grid Background="#FF06812D">
+        <Image x:Name="imgMedal" HorizontalAlignment="Left" Height="289" Margin="19,65,0,0" VerticalAlignment="Top" Width="119"/>
+
+        <Label Content="_________________________________________________________________________________________________________________________________________" HorizontalAlignment="Left" Margin="-54,195,0,0" VerticalAlignment="Top" Foreground="Black" BorderBrush="Black" FontWeight="Bold" FontSize="14" Background="{x:Null}" Height="27" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+
+        <Label Content="POINTS: " HorizontalAlignment="Left" Margin="166,154,0,0" VerticalAlignment="Top" Foreground="Black" BorderBrush="Black" FontWeight="Bold" FontSize="18" Background="{x:Null}"/>
+        <Label Content="POINTS: " HorizontalAlignment="Left" Margin="166,152,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="Black" FontWeight="Bold" FontSize="18" Background="{x:Null}"/>
+        <Label x:Name="lblPoints" Content="" HorizontalAlignment="Left" Margin="256,152,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="Black" FontWeight="Bold" FontSize="18" Background="{x:Null}"/>
+        <Label Content="_________________" HorizontalAlignment="Left" Margin="241,168,0,0" VerticalAlignment="Top" Foreground="Black" BorderBrush="Black" FontWeight="Bold" FontSize="14" Background="{x:Null}" Height="27"/>
+
+        <Label x:Name="lblMsgBlk" Content="" HorizontalAlignment="Left" Margin="168,211,0,0" VerticalAlignment="Top" Foreground="Black" BorderBrush="Black" FontWeight="Bold" FontSize="18" Background="{x:Null}" FontFamily="Verdana"/>
+        <Label x:Name="lblMsgWht" Content="" HorizontalAlignment="Left" Margin="168,208,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="Black" FontWeight="Bold" FontSize="18" Background="{x:Null}" FontFamily="Verdana"/>
+        <Label Content="Exit to Start to Try Again" HorizontalAlignment="Left" Margin="194,308,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="Black" FontWeight="Bold" FontSize="14" Background="{x:Null}" Height="31"/>
+        <Button x:Name="btnExit" Content="EXIT" HorizontalAlignment="Left" Margin="230,339,0,0" VerticalAlignment="Top" Width="100" Height="45" Click="btnExit_Click"/>
+    </Grid>
+</Window>

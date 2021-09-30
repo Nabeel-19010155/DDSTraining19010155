@@ -1,0 +1,31 @@
+﻿<Window x:Name="StartUpWindow" x:Class="DDSTraining.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DDSTraining"
+        mc:Ignorable="d"
+        Title="WELCOME!" Height="500" Width="808" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Image Source="libBG.jpg" HorizontalAlignment="Left" Height="469" VerticalAlignment="Top" Width="803" Margin="0,0,-11,0"/>
+        <Label Content="WELCOME!" HorizontalAlignment="Left" Margin="210,-8,0,0" VerticalAlignment="Top" Height="122" Width="409" FontSize="65" Background="{x:Null}" Foreground="#FF05B43C" FontWeight="Bold" FontFamily="Tahoma"/>
+        <Label Content="WELCOME!" HorizontalAlignment="Left" Margin="210,-13,0,0" VerticalAlignment="Top" Height="96" Width="386" FontSize="65" Background="{x:Null}" Foreground="White" FontWeight="Bold" FontFamily="Tahoma"/>
+
+        <Label Content="TO THE" HorizontalAlignment="Left" Margin="319,67,0,0" VerticalAlignment="Top" Height="77" Width="146" FontSize="35" Background="{x:Null}" Foreground="BLACK" FontWeight="Bold" FontStyle="Italic" FontFamily="Tahoma"/>
+        <Label Content="TO THE" HorizontalAlignment="Left" Margin="319,62,0,0" VerticalAlignment="Top" Height="77" Width="146" FontSize="35" Background="{x:Null}" Foreground="White" FontWeight="Bold" FontStyle="Italic" FontFamily="Tahoma"/>
+
+
+        <Label Content="DEWEY DECIMAL SYSTEM" HorizontalAlignment="Left" Margin="142,110,0,0" VerticalAlignment="Top" Height="74" Width="598" FontSize="40" Background="{x:Null}" Foreground="#FF05B43C" FontWeight="Bold" FontFamily="Tahoma"/>
+        <Label Content="DEWEY DECIMAL SYSTEM" HorizontalAlignment="Left" Margin="142,105,0,0" VerticalAlignment="Top" Height="74" Width="531" FontSize="40" Background="{x:Null}" Foreground="White" FontWeight="Bold" FontFamily="Tahoma"/>
+
+        <Label Content="TRAINING PROGRAM" HorizontalAlignment="Left" Margin="199,161,0,0" VerticalAlignment="Top" Height="59" Width="396" FontSize="35" Background="{x:Null}" Foreground="Black" FontWeight="Bold" FontStyle="Italic" FontFamily="Tahoma"/>
+        <Label Content="TRAINING PROGRAM" HorizontalAlignment="Left" Margin="200,156,0,0" VerticalAlignment="Top" Height="59" Width="396" FontSize="35" Background="{x:Null}" Foreground="White" FontWeight="Bold" FontStyle="Italic" FontFamily="Tahoma"/>
+
+        <Button x:Name="btnReplace" Content="REPLACING BOOKS" HorizontalAlignment="Left" Margin="40,328,0,0" VerticalAlignment="Top" Width="190" Height="90" Background="#FF84E084" BorderBrush="#FF0023FF" FontFamily="Nirmala UI" FontWeight="Bold" Click="btnReplace_Click"/>
+        <Button x:Name="btnIdentify" Content="IDENTIFYING AREAS" HorizontalAlignment="Left" Margin="304,328,0,0" VerticalAlignment="Top" Width="190" Height="90" Background="#FF84E084" BorderBrush="#FF0023FF" FontWeight="Bold" FontFamily="Nirmala UI" IsEnabled="False"/>
+        <Button x:Name="btnFind" Content="FINDING CALL NUMBERS" HorizontalAlignment="Left" Margin="567,328,0,0" VerticalAlignment="Top" Width="190" Height="90" Background="#FF84E084" BorderBrush="#FF0023FF" FontFamily="Nirmala UI" FontWeight="Bold" IsEnabled="False"/>
+        
+        <Label Content="PLEASE CHOOSE A TASK TO BEGIN TRAINING:" HorizontalAlignment="Left" Margin="178,288,0,0" VerticalAlignment="Top" Foreground="Black" BorderBrush="Black" FontWeight="Bold" FontSize="20" Background="{x:Null}"/>
+        <Label Content="PLEASE CHOOSE A TASK TO BEGIN TRAINING:" HorizontalAlignment="Left" Margin="178,286,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="Black" FontWeight="Bold" FontSize="20" Background="{x:Null}"/>
+    </Grid>
+</Window>

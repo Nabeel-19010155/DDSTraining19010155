@@ -1,0 +1,86 @@
+﻿<Window x:Name="RepCallNumWin" x:Class="DDSTraining.RepCallNumWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DDSTraining"
+        mc:Ignorable="d"
+        Title="REPLACE CALL NUMBERS" Height="500" Width="808" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Image Source="libBG.jpg" HorizontalAlignment="Left" Height="469" VerticalAlignment="Top" Width="803" Margin="0,0,-11,0"/>
+
+        <Label x:Name="lblDispBG" Content="" HorizontalAlignment="Left" Margin="9,74,0,0" VerticalAlignment="Top" Height="330" Width="270" FontSize="16" Foreground="{x:Null}" Background="#FF05B43C"/>
+        <Label Content="PICK FROM THE GENERATED" HorizontalAlignment="Left" Margin="46,81,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="Black" FontWeight="Bold" FontSize="14" Background="{x:Null}" Height="27"/>
+        <Label Content="NUMBERS BELOW AND SELECT " HorizontalAlignment="Left" Margin="37,108,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="Black" FontWeight="Bold" FontSize="14" Background="{x:Null}" Height="27"/>
+        <Label Content="THE POSITION TO INSERT:" HorizontalAlignment="Left" Margin="55,136,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="Black" FontWeight="Bold" FontSize="14" Background="{x:Null}" Height="27"/>
+        <Label Content="____________________________________________________________________________________" HorizontalAlignment="Left" Margin="17,150,0,0" VerticalAlignment="Top" Foreground="Black" BorderBrush="Black" FontWeight="Bold" FontSize="14" Background="{x:Null}" Height="27"/>
+        <ListBox x:Name="lstDisplay" HorizontalAlignment="Left" Height="208" Margin="19,184,0,0" VerticalAlignment="Top" Width="250"/>
+
+        <Label Content="PLEASE ARRANGE THE RANDOMLY GENERATED NUMBERS" HorizontalAlignment="Left" Margin="136,1,0,0" VerticalAlignment="Top" Foreground="Black" BorderBrush="Black" FontWeight="Bold" FontSize="18" Background="{x:Null}"/>
+        <Label Content="PLEASE ARRANGE THE RANDOMLY GENERATED NUMBERS" HorizontalAlignment="Left" Margin="138,-1,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="Black" FontWeight="Bold" FontSize="18" Background="{x:Null}"/>
+
+        <Label Content="IN ASCENDING ORDER:" HorizontalAlignment="Left" Margin="279,35,0,0" VerticalAlignment="Top" Foreground="Black" BorderBrush="Black" FontWeight="Bold" FontSize="18" Background="{x:Null}"/>
+        <Label Content="IN ASCENDING ORDER:" HorizontalAlignment="Left" Margin="281,33,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="Black" FontWeight="Bold" FontSize="18" Background="{x:Null}"/>
+
+        <TextBox x:Name="txt1" HorizontalAlignment="Left" Height="30" Margin="372,96,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="125"/>
+        <TextBox x:Name="txt2" HorizontalAlignment="Left" Height="30" Margin="372,148,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="125"/>
+        <TextBox x:Name="txt3" HorizontalAlignment="Left" Height="30" Margin="372,200,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="125"/>
+        <TextBox x:Name="txt4" HorizontalAlignment="Left" Height="30" Margin="372,247,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="125"/>
+        <TextBox x:Name="txt5" HorizontalAlignment="Left" Height="30" Margin="372,295,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="125"/>
+        <TextBox x:Name="txt6" HorizontalAlignment="Left" Height="30" Margin="585,96,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="125"/>
+        <TextBox x:Name="txt7" HorizontalAlignment="Left" Height="30" Margin="585,148,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="125"/>
+        <TextBox x:Name="txt8" HorizontalAlignment="Left" Height="30" Margin="585,200,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="125"/>
+        <TextBox x:Name="txt9" HorizontalAlignment="Left" Height="30" Margin="585,247,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="125"/>
+        <TextBox x:Name="txt10" HorizontalAlignment="Left" Height="30" Margin="585,295,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="125"/>
+
+        <Label Content="1." HorizontalAlignment="Left" Margin="341,90,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Semibold" FontSize="24" Height="41" Width="31" Background="{x:Null}" Foreground="Black" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" BorderBrush="Black"/>
+        <Label Content="1." HorizontalAlignment="Left" Margin="342,90,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Semibold" FontSize="24" Height="41" Width="31" Background="{x:Null}" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" BorderBrush="Black"/>
+
+        <Label Content="2." HorizontalAlignment="Left" Margin="341,140,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Semibold" FontSize="24" Height="41" Width="31" Background="{x:Null}" Foreground="Black" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" BorderBrush="Black"/>
+        <Label Content="2." HorizontalAlignment="Left" Margin="342,141,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Semibold" FontSize="24" Height="40" Width="32" Background="{x:Null}" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" BorderBrush="Black"/>
+
+        <Label Content="3." HorizontalAlignment="Left" Margin="341,193,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Semibold" FontSize="24" Height="41" Width="31" Background="{x:Null}" Foreground="Black" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" BorderBrush="Black"/>
+        <Label Content="3." HorizontalAlignment="Left" Margin="342,194,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Semibold" FontSize="24" Height="40" Width="32" Background="{x:Null}" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" BorderBrush="Black"/>
+
+        <Label Content="4." HorizontalAlignment="Left" Margin="341,238,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Semibold" FontSize="24" Height="41" Width="31" Background="{x:Null}" Foreground="Black" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" BorderBrush="Black"/>
+        <Label Content="4." HorizontalAlignment="Left" Margin="342,239,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Semibold" FontSize="24" Height="40" Width="32" Background="{x:Null}" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" BorderBrush="Black"/>
+
+        <Label Content="5." HorizontalAlignment="Left" Margin="341,289,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Semibold" FontSize="24" Height="41" Width="31" Background="{x:Null}" Foreground="Black" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" BorderBrush="Black"/>
+        <Label Content="5." HorizontalAlignment="Left" Margin="342,290,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Semibold" FontSize="24" Height="40" Width="32" Background="{x:Null}" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" BorderBrush="Black"/>
+
+        <Label Content="6." HorizontalAlignment="Left" Margin="547,89,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Semibold" FontSize="24" Height="41" Width="30" Background="{x:Null}" Foreground="Black" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" BorderBrush="Black"/>
+        <Label Content="6." HorizontalAlignment="Left" Margin="548,89,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Semibold" FontSize="24" Height="41" Width="31" Background="{x:Null}" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" BorderBrush="Black"/>
+
+        <Label Content="7." HorizontalAlignment="Left" Margin="546,140,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Semibold" FontSize="24" Height="41" Width="31" Background="{x:Null}" Foreground="Black" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" BorderBrush="Black"/>
+        <Label Content="7." HorizontalAlignment="Left" Margin="548,140,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Semibold" FontSize="24" Height="40" Width="32" Background="{x:Null}" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" BorderBrush="Black"/>
+
+        <Label Content="8." HorizontalAlignment="Left" Margin="546,193,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Semibold" FontSize="24" Height="41" Width="31" Background="{x:Null}" Foreground="Black" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" BorderBrush="Black"/>
+        <Label Content="8." HorizontalAlignment="Left" Margin="548,193,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Semibold" FontSize="24" Height="40" Width="32" Background="{x:Null}" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" BorderBrush="Black"/>
+
+        <Label Content="9." HorizontalAlignment="Left" Margin="547,237,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Semibold" FontSize="24" Height="41" Width="31" Background="{x:Null}" Foreground="Black" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" BorderBrush="Black"/>
+        <Label Content="9." HorizontalAlignment="Left" Margin="548,238,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Semibold" FontSize="24" Height="40" Width="32" Background="{x:Null}" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" BorderBrush="Black"/>
+
+        <Label Content="10." HorizontalAlignment="Left" Margin="544,289,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Semibold" FontSize="24" Height="41" Width="37" Background="{x:Null}" Foreground="Black" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" BorderBrush="Black"/>
+        <Label Content="10." HorizontalAlignment="Left" Margin="544,289,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Semibold" FontSize="24" Height="40" Width="40" Background="{x:Null}" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" BorderBrush="Black"/>
+
+
+
+        <RadioButton x:Name="radOne" Content="" HorizontalAlignment="Left" Margin="326,105,0,0" VerticalAlignment="Top" Width="15" Height="15"/>
+        <RadioButton x:Name="radTwo" Content="" HorizontalAlignment="Left" Margin="326,155,0,0" VerticalAlignment="Top" Width="15" Height="15"/>
+        <RadioButton x:Name="radThree" Content="" HorizontalAlignment="Left" Margin="326,209,0,0" VerticalAlignment="Top" Width="15" Height="15"/>
+        <RadioButton x:Name="radFour" Content="" HorizontalAlignment="Left" Margin="326,252,0,0" VerticalAlignment="Top" Width="15" Height="15"/>
+        <RadioButton x:Name="radFive" Content="" HorizontalAlignment="Left" Margin="326,304,0,0" VerticalAlignment="Top" Width="15" Height="15"/>
+        <RadioButton x:Name="radSix" Content="" HorizontalAlignment="Left" Margin="532,105,0,0" VerticalAlignment="Top" Width="15" Height="15"/>
+        <RadioButton x:Name="radSeven" Content="" HorizontalAlignment="Left" Margin="532,155,0,0" VerticalAlignment="Top" Width="15" Height="15"/>
+        <RadioButton x:Name="radEight" Content="" HorizontalAlignment="Left" Margin="532,209,0,0" VerticalAlignment="Top" Width="15" Height="15"/>
+        <RadioButton x:Name="radNine" Content="" HorizontalAlignment="Left" Margin="532,252,0,0" VerticalAlignment="Top" Width="15" Height="15"/>
+        <RadioButton x:Name="radTen" Content="" HorizontalAlignment="Left" Margin="532,304,0,0" VerticalAlignment="Top" Width="15" Height="15"/>
+
+        <Button x:Name="btnAdd" Content="ADD CALL NUMBER" HorizontalAlignment="Left" Margin="357,349,0,0" VerticalAlignment="Top" Width="140" Height="40" Click="btnAdd_Click"/>
+        <Button x:Name="btnRemove" Content="REMOVE CALL NUMBER" HorizontalAlignment="Left" Margin="570,349,0,0" VerticalAlignment="Top" Width="140" Height="40" Click="btnRemove_Click" RenderTransformOrigin="0.491,0.5"/>
+        <Button x:Name="btnConfirm" Content="CONFIRM ANSWER" HorizontalAlignment="Left" Margin="408,419,0,0" VerticalAlignment="Top" Width="250" Height="40" Click="btnConfirm_Click" FontWeight="Bold"/>
+
+
+
+    </Grid>
+</Window>
